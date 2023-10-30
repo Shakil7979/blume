@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blume</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
@@ -13,21 +13,24 @@
         
         @media all and (max-width: 567px){
             .iconss { 
-                flex-direction: column;
-                gap: 40px;
+                flex-direction: column !important;
+                gap: 40px !important;
             }
             .icon_singl h3 { 
-                font-size: 16px; 
+                font-size: 16px !important; 
+            }
+            .subscribe_content { 
+                padding: 37px 10px !important;
             }
             .subscribe_content h3 { 
-                font-size: 20px; 
+                font-size: 20px !important; 
             }
             .subscribe_content p { 
-                font-size: 14px; 
+                font-size: 14px !important; 
             }
             .input_box { 
-                flex-direction: column;
-                align-items: center;
+                flex-direction: column !important;
+                align-items: center !important;
             }
         }
     </style>
@@ -43,12 +46,12 @@
                     <p style="color: var(--Dark, #04070D); text-align: center;font-family: 'Poppins',  sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: normal; margin: 0; margin-top: 4px;">ab 35 Euro innerhalb von 2-3 Werktagen</p>
                 </div>
                 <div class="icon_singl" style="text-align: center; flex: 0 0 33%;">
-                    <img src="Icons(1).png" alt="">
+                    <img style="width: 32px;" src="Icons(1).png" alt="">
                     <h3 style="color: var(--Dark, #04070D); text-align: center; font-family: 'Paytone One',  sans-serif; font-size: 18px; font-style: normal; font-weight: 400; line-height: 110%; letter-spacing: -0.36px; padding: 0; margin: 0; margin-top: 16px;">Kostenloser Versand </h3>
                     <p style="color: var(--Dark, #04070D); text-align: center;font-family: 'Poppins',  sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: normal; margin: 0; margin-top: 4px;">ab 35 Euro innerhalb von 2-3 Werktagen</p>
                 </div>
                 <div class="icon_singl" style="text-align: center; flex: 0 0 33%;">
-                    <img src="Icons(2).png" alt="">
+                    <img style="width: 32px;" src="Icons(2).png" alt="">
                     <h3 style="color: var(--Dark, #04070D); text-align: center; font-family: 'Paytone One',  sans-serif; font-size: 18px; font-style: normal; font-weight: 400; line-height: 110%; letter-spacing: -0.36px; padding: 0; margin: 0; margin-top: 16px;">Kostenloser Versand </h3>
                     <p style="color: var(--Dark, #04070D); text-align: center;font-family: 'Poppins',  sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: normal; margin: 0; margin-top: 4px;">ab 35 Euro innerhalb von 2-3 Werktagen</p>
                 </div>
@@ -58,7 +61,7 @@
 
     <div style=" margin-top: 25px;"> 
         <div style="width: 100%; max-width: 1140px;  margin: 0 auto;  border-radius: 20px; background: var(--Newsletter, linear-gradient(268deg, #DFF4FF 0%, #D0DDFF 100%));">
-            <div class="subscribe_content" styke="max-width: 552px; width: 100%; margin: 0 auto; padding: 37px 0; text-align: center;">
+            <div class="subscribe_content" style="box-sizing: border-box; max-width: 552px; width: 100%; margin: 0 auto; padding: 37px 0; text-align: center;">
                 <h3 style="color: var(--Dark, #04070D); text-align: center;font-family: 'Paytone One', sans-serif;  font-size: 24px; font-style: normal; font-weight: 400; line-height: normal; letter-spacing: -0.48px; margin: 0;">Werde Teil unser Community</h3>
                 <p style="color: var(--foreground-neutral, #04070D); text-align: center; font-family: 'Poppins', sans-serif; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal; margin: 4px 0 24px 0;">Sicher Dir 5% Rabatt auf Deine erste Bestellung!</p>
                 <div class="input_box" style="margin-bottom: 24px; display: flex; justify-content: center; gap: 10px;">
